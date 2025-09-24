@@ -16,7 +16,7 @@
   </info>
   <locale xml:lang="fr">
     <terms>
-      <term name="et-al">et al</term>
+      <term name="et-al">et al.</term>
       <term name="in">in</term>
       <term name="available at">consultable</term>
     </terms>
@@ -114,7 +114,7 @@
     </choose>
   </macro>
   <macro name="URL">
-    <group delimiter=" : ">
+    <group delimiter=" ">
       <text term="available at" text-case="capitalize-first" suffix=" "/>
       <text variable="URL"/>
       <group delimiter=" " prefix=" [" suffix="]">
